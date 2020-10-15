@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .topnav {
+                overflow: hidden;
+                padding-top: 15px;
+            }
+            .topnav #left{
+                float: left;
+                color:#222;
+                text-decoration-line: none;
+                text-align: center;
+                padding: 0 0 0 15px;
+                text-decoration: none;
+                font-size: 13px;
+                font-family: arial, sans-serif;
+            }
+            .topnav #right{
+                float: right;
+                color:#222;
+                text-decoration-line: none;
+                text-align: center;
+                padding: 0 0 0 15px;
+                text-decoration: none;
+                font-size: 13px;
+                font-family: arial, sans-serif;
+            }
+            .google-logo {
+                padding: 47px 0px 0px;
+            }
+            #logo {
+                height: 92px;
+                width: 272px;
+            }
+            #main {
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 109px 0px 0px;
+            }
+            .search-bar {
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .search-buttons {
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #search-buttons {
+                background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+                background-color: #f2f2f2;
+                border: 1px solid #f2f2f2;
+                border-radius: 4px;
+                color: #5F6368;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+            }
+            #search-required {
+                background: #fff;
+                display: flex;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                border-radius: 24px;
+                z-index: 3;
+                height: 44px;
+                margin: 0 auto;
+                width: 482px;
+            }
+            .footer {
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                right: 0;
+                background: #f2f2f2;
+                border-top: 1px solid #e4e4e4;
+                min-width: 400px;
+                line-height: 40px;
+                font-size: 14px;
+                font-family: arial, sans-serif;
+                
+            }
+            .footer #left {
+                float: left;
+                text-align: center;
+                padding: 0 27px 0 27px;
+                color:rgb(95, 99, 104);
+                text-decoration-line: none;
+            }
+            .footer #right {
+                float: right;
+                text-align: center;
+                padding: 0 27px 0 27px;
+                color:rgb(95, 99, 104);
+                text-decoration-line: none;
+            }
+        </style>
+        <body>
+            <div class="topnav">
+                <a href="" id="left">About</a>
+                <a href="" id="left">Store</a>
+                <a href="" id="right">Gmail</a>
+                <a href="" id="right">Images</a>
+            </div>
+            <div class="google-logo" id="main" style="max-width: 100%;max-height: 100%;">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google" id="logo">
+            </div>
+            <div id="search-form">
+                <form action="" method="get" class="search-bar"></form>
+                    <div class="search-bar">
+                        <input type="text" name="search" id="search-required">
+                    </div>
+                    <br>
+                    <div class="search-buttons">
+                        <input type="submit" value="Google Search" id="search-buttons">
+                        <input type="submit" value="I'm Feeling Lucky" id="search-buttons">
+                    </div>
+                </form>
+            </div>
+            <footer class="footer">
+                <a href="" id="left">Advertising</a>
+                <a href="" id="left">Business</a>
+                <a href="" id="left">How Search Works</a>
+                <a href="" id="right">Privacy</a>
+                <a href="" id="right">Terms</a>
+                <a href="" id="right">Settings</a>
+            </footer>
+        </body>
+    </head>
+</html>
